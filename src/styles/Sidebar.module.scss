@@ -1,0 +1,44 @@
+.container{
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  background: var(--sidebar-background);
+  z-index: 0;
+
+  .sidebar{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    transition: all 0.5s;
+  }
+
+  .content{
+    position: relative;
+    overflow-x: hidden;
+    width: clamp(200px, 30vw, 350px);
+  }
+
+  .closer{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -40px;
+    top: 10px;
+    z-index: 0;
+    color: var(--sidebar-closer__color);
+    border: 1px solid var(--sidebar-closer__color);
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .open{
+    width: clamp(200px, 30vw, 350px);
+  }
+
+  .close{
+    width: 0;
+  }
+}

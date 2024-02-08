@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Дом",
+    "cameras": [
+      {
+        "id": 5,
+        "name": "Камера 5",
+        "ip": "71.117.212.56",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid5.mp4",
+        "preview": "default.png"
+      },
+      {
+        "id": 6,
+        "name": "Камера 6",
+        "ip": "11.217.32.44",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid6.mp4",
+        "preview": "default.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Камера 1",
+    "ip": "14.192.31.45",
+    "port": "3000",
+    "list_permissions": ["1080p", "720p", "480p"],
+    "src": "/videos/vid1.mp4",
+    "preview": "default.png"
+  },
+  {
+    "id": 2,
+    "name": "Камера 2",
+    "ip": "14.192.119.96",
+    "port": "3000",
+    "list_permissions": ["1080p", "720p", "480p"],
+    "src": "/videos/vid2.mp4",
+    "preview": "default.png"
+  },
+  {
+    "id": 3,
+    "name": "Камера 3",
+    "ip": "14.192.97.31",
+    "port": "3000",
+    "list_permissions": ["1080p", "720p", "480p"],
+    "src": "/videos/vid3.mp4",
+    "preview": "default.png"
+  },
+  {
+    "id": 4,
+    "name": "Камера 4",
+    "ip": "71.117.161.82",
+    "port": "3000",
+    "list_permissions": ["1080p", "720p", "480p"],
+    "src": "/videos/vid4.mp4",
+    "preview": "default.png"
+  }
+]
