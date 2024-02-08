@@ -1,6 +1,7 @@
 [
   {
     "name": "Дом",
+    "role": "list",
     "cameras": [
       {
         "id": 5,
@@ -18,6 +19,72 @@
         "port": "3000",
         "list_permissions": ["1080p", "720p", "480p"],
         "src": "/videos/vid6.mp4",
+        "preview": "default.png"
+      }
+    ]
+  },
+  {
+    "name": "Фазенда",
+    "role": "list",
+    "cameras": [
+      {
+        "id": 7,
+        "name": "Камера 7",
+        "ip": "71.117.193.34",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid7.mp4",
+        "preview": "default.png"
+      },
+      {
+        "id": 8,
+        "name": "Камера 8",
+        "ip": "17.117.132.54",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid6.mp4",
+        "preview": "default.png"
+      }
+    ]
+  },
+  {
+    "name": "Общий список",
+    "role": "common",
+    "cameras":[
+      {
+        "id": 1,
+        "name": "Камера 1 qqewrqewrqwerqwerqwerqwerqwerqwerqwer",
+        "ip": "14.192.31.45",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid1.mp4",
+        "preview": "default.png"
+      },
+      {
+        "id": 2,
+        "name": "Камера 2",
+        "ip": "14.192.119.96",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid2.mp4",
+        "preview": "default.png"
+      },
+      {
+        "id": 3,
+        "name": "Камера 3",
+        "ip": "14.192.97.31",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid3.mp4",
+        "preview": "default.png"
+      },
+      {
+        "id": 4,
+        "name": "Камера 4",
+        "ip": "71.117.161.82",
+        "port": "3000",
+        "list_permissions": ["1080p", "720p", "480p"],
+        "src": "/videos/vid4.mp4",
         "preview": "default.png"
       }
     ]

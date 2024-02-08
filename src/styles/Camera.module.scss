@@ -1,0 +1,37 @@
+.container{
+  width: 100%;
+  // padding: 10px;
+  font-size: 18px;
+
+  .content{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+      display: flex;
+      align-items: center;
+    }
+
+    .camera_head{
+      width: calc(100% - 20px);
+      p{
+        margin-left: 5px;
+        white-space: nowrap; /* Запрет переноса текста */
+        overflow: hidden; /* Скрытие текста, выходящего за границы элемента */
+        text-overflow: ellipsis;
+      }
+
+      .logo{
+        width: 18px;
+      }
+
+      .start{
+        color: var(--camera-run);
+      }
+      .stop{
+        color: var(--camera-stop);
+      }
+    }
+  }
+}
