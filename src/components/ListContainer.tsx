@@ -3,7 +3,8 @@ import { ExpandMore } from '@mui/icons-material';
 import lists from '../json/lists.json';
 import { Camera } from './Camera';
 import styles from '../styles/ListCreator.module.scss';
-export const ListCreator = () => {
+
+export const ListContainer = () => {
   
   return (
     <>

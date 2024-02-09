@@ -18,12 +18,14 @@ export const EditCameraProvaider: FC<IEditCameraProvider> = ({children}) => {
   let [show, setShow] = useState(false);
   let [camera, setCamera] = useState<ICamera | null>(null);
   return (
-    <EditCameraContext.Provider value={{
-      show,
-      setShow,
-      camera,
-      setCamera,
-    }}>    
+    <EditCameraContext.Provider 
+      value={{
+        show,
+        setShow,
+        camera,
+        setCamera,
+      }
+    }>    
       {children}
     </EditCameraContext.Provider>
   )

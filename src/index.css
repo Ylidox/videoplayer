@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --viewing-panel-background: rgb(221, 217, 217);
   --sidebar-background: rgb(253, 240, 238);
-  --sidebar-closer__color: black;
+  --sidebar-closer__color: white;
   --camera-run: lime;
   --camera-stop: grey;
 }

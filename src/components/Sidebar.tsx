@@ -1,7 +1,7 @@
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import styles from '../styles/Sidebar.module.scss';
 import { useState } from 'react';
-import { ListCreator } from './ListCreator';
+import { ListContainer } from './ListContainer';
 
 
 export const Sidebar = () => {
@@ -15,7 +15,7 @@ export const Sidebar = () => {
       </div>
       <div className={`${styles.sidebar} ${open ? styles.open : styles.close}`} >
         <div className={styles.content}>
-          <ListCreator/>
+          <ListContainer/>
         </div>
       </div>
     </div>

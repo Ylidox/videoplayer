@@ -20,13 +20,14 @@
 
   .closer{
     position: absolute;
+    box-sizing: border-box;
     width: 30px;
     height: 30px;
     right: -40px;
     top: 10px;
     z-index: 0;
     color: var(--sidebar-closer__color);
-    border: 1px solid var(--sidebar-closer__color);
+    border: 2px solid var(--sidebar-closer__color);
     border-radius: 5px;
     font-size: 20px;
     display: flex;

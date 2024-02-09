@@ -18,7 +18,7 @@ export interface ICamera{
 export const Camera: FC<ICamera> = (camera) => {
   let [run, setRun] = useState(false);
   // let [showModal, setShowModal] = useState(false);
-  let {show, setShow} = useEditCamera();
+  let {show, setShow, setCamera} = useEditCamera();
 
   return (
     <div className={styles.container}>
@@ -32,7 +32,10 @@ export const Camera: FC<ICamera> = (camera) => {
           <p>{camera.name}</p>
         </div>
         <div
-          onClick={() => setShow?.(!show)}
+          onClick={() => {
+            setCamera?.(camera);
+            setShow?.(!show);
+          }}
         >
           <HiDotsVertical/>
         </div>
