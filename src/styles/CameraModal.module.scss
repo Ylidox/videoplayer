@@ -1,0 +1,27 @@
+.outside{
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0.5, 0.5, 0.5, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    width: 90%;
+    height: 90%;
+    background: white;
+    animation: slide-left 0.3s ease-in-out;
+  }
+
+  @keyframes slide-left {
+    from{
+      margin-left: 400px;
+    }
+    to{
+      margin-left: 0;
+    }
+  }
+  
+}

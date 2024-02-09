@@ -15,6 +15,7 @@
 
     .camera_head{
       width: calc(100% - 20px);
+      cursor: pointer;
       p{
         margin-left: 5px;
         white-space: nowrap; /* Запрет переноса текста */
