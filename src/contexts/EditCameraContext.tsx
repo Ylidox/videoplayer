@@ -1,31 +1,39 @@
 import { FC, createContext, useState } from "react";
 import { ICamera } from "../components/Camera";
+import { useListCameras } from "../hooks/useListCameras";
 
 interface IEditCameraContext{
-  camera?: ICamera | null,
-  setCamera?:  React.Dispatch<React.SetStateAction<ICamera | null>>, 
-  show?: boolean,
-  setShow?: React.Dispatch<React.SetStateAction<boolean>>, 
+  editCamera?: ICamera,
+  setEditCamera: React.Dispatch<React.SetStateAction<ICamera | undefined>>,
+  showModal: boolean,
+  setShowModal: React.Dispatch<React.SetStateAction<boolean>>,
 }
 
 interface IEditCameraProvider{
   children: React.ReactNode,
 }
 
-export const EditCameraContext = createContext<IEditCameraContext>({});
+export const EditCameraContext = createContext<IEditCameraContext>({
+  editCamera: undefined,
+  setEditCamera: () => {},
+  showModal: false,
+  setShowModal: () => {},
+});
 
-export const EditCameraProvaider: FC<IEditCameraProvider> = ({children}) => {
-  let [show, setShow] = useState(false);
-  let [camera, setCamera] = useState<ICamera | null>(null);
+export const EditCameraProvider: FC<IEditCameraProvider> = ({children}) => {
+  let [showModal, setShowModal] = useState(false);
+  let [editCamera, setEditCamera] = useState<ICamera>();
+  
+
   return (
     <EditCameraContext.Provider 
       value={{
-        show,
-        setShow,
-        camera,
-        setCamera,
-      }
-    }>    
+        editCamera,
+        setEditCamera,
+        showModal,
+        setShowModal
+      }}
+    >    
       {children}
     </EditCameraContext.Provider>
   )
