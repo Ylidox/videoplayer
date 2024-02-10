@@ -1,6 +1,5 @@
 import { FC, createContext, useState } from "react";
 import { ICamera } from "../components/Camera";
-import { useListCameras } from "../hooks/useListCameras";
 
 interface IEditCameraContext{
   editCamera?: ICamera,

@@ -1,11 +1,10 @@
 import { useEditCamera } from '../hooks/useEditCamera';
-import styles from '../styles/CameraModal.module.scss';
+import styles from '../styles/EditModal.module.scss';
 import { ICamera } from './Camera';
 import { IoCloseOutline } from "react-icons/io5";
-import {edit} from '../hooks/edit';
 import { useListCameras } from '../hooks/useListCameras';
 
-export const CameraModal = () => {
+export const EditModal = () => {
   let {showModal, setShowModal, editCamera, setEditCamera} = useEditCamera();
   let {cameras, setCameras} = useListCameras();
 

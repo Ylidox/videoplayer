@@ -1,4 +1,4 @@
-import { CameraModal } from "../components/CameraModal"
+import { EditModal } from "../components/EditModal"
 import { Sidebar } from "../components/Sidebar"
 import { ViewingPanel } from "../components/ViewingPanel"
 import { EditCameraProvider } from "../contexts/EditCameraContext"
@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <>
       <EditCameraProvider>
-        <CameraModal/>
+        <EditModal/>
         <Sidebar/>
       </EditCameraProvider>
       <ViewingPanel/>

@@ -1,5 +1,4 @@
-import { FC, useState } from "react"
-import {ICamera} from './Camera'
+import { FC} from "react"
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
 import { Camera } from './Camera';
