@@ -1,4 +1,4 @@
-import { FC} from "react"
+import { FC, memo} from "react"
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
 import { Camera } from './Camera';

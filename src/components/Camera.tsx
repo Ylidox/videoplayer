@@ -1,11 +1,8 @@
-import { FC, useState } from "react"
+import { FC, useState, memo } from "react"
 import styles from '../styles/Camera.module.scss';
 import { HiDotsVertical } from "react-icons/hi";
 import { BsCameraVideoFill, BsCameraVideo } from "react-icons/bs";
-import { useEditCamera } from "../hooks/useEditCamera";
 import { useCameraModal } from "../hooks/useCameraModal";
-
-
 
 export interface ICamera{
   id: number,
@@ -22,11 +19,9 @@ export interface ICameraProp{
   camera: ICamera,
 }
 
-export const Camera: FC<ICameraProp> = ({camera,}) => {
+export const Camera: FC<ICameraProp> = memo(({camera,}) => {
   let [run, setRun] = useState(false);
-  // let [showModal, setShowModal] = useState(false);
 
-  // let {setEditCamera, setShowModal} = useEditCamera();
 
   let {setShowModal, setCameraModal} = useCameraModal();
   return (
@@ -43,8 +38,6 @@ export const Camera: FC<ICameraProp> = ({camera,}) => {
         </div>
         <div
           onClick={() => {
-            // setEditCamera(camera);
-            // setShowModal(!showModal);
             setShowModal(true);
             setCameraModal(camera);
           }}
@@ -54,4 +47,4 @@ export const Camera: FC<ICameraProp> = ({camera,}) => {
       </div>
     </div>
   )
-}
+})
