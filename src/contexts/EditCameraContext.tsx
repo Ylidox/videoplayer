@@ -4,8 +4,8 @@ import { ICamera } from "../components/Camera";
 interface IEditCameraContext{
   editCamera?: ICamera,
   setEditCamera: React.Dispatch<React.SetStateAction<ICamera | undefined>>,
-  showModal: boolean,
-  setShowModal: React.Dispatch<React.SetStateAction<boolean>>,
+  showEdit: boolean,
+  setShowEdit: React.Dispatch<React.SetStateAction<boolean>>,
 }
 
 interface IEditCameraProvider{
@@ -15,12 +15,12 @@ interface IEditCameraProvider{
 export const EditCameraContext = createContext<IEditCameraContext>({
   editCamera: undefined,
   setEditCamera: () => {},
-  showModal: false,
-  setShowModal: () => {},
+  showEdit: false,
+  setShowEdit: () => {},
 });
 
 export const EditCameraProvider: FC<IEditCameraProvider> = ({children}) => {
-  let [showModal, setShowModal] = useState(false);
+  let [showEdit, setShowEdit] = useState(false);
   let [editCamera, setEditCamera] = useState<ICamera>();
   
 
@@ -29,8 +29,8 @@ export const EditCameraProvider: FC<IEditCameraProvider> = ({children}) => {
       value={{
         editCamera,
         setEditCamera,
-        showModal,
-        setShowModal
+        showEdit,
+        setShowEdit
       }}
     >    
       {children}

@@ -5,7 +5,7 @@ import { IoCloseOutline } from "react-icons/io5";
 import { useListCameras } from '../hooks/useListCameras';
 
 export const EditModal = () => {
-  let {showModal, setShowModal, editCamera, setEditCamera} = useEditCamera();
+  let {showEdit, setShowEdit, editCamera, setEditCamera} = useEditCamera();
   let {cameras, setCameras} = useListCameras();
 
   let editHandler = (event: React.ChangeEvent<HTMLInputElement>, prop: keyof ICamera) => {
@@ -19,9 +19,9 @@ export const EditModal = () => {
 
   return (
     <>
-      {showModal && (
+      {showEdit && (
       <div className={styles.outside}
-        onClick={() => setShowModal(false)}
+        onClick={() => setShowEdit(false)}
       >
         <div className={styles.icon_close}>
           <IoCloseOutline />
@@ -85,7 +85,7 @@ export const EditModal = () => {
                       }else return item;
                     })]
                   );
-                  setShowModal(false);
+                  setShowEdit(false);
                 }}
               >
                 Изменить

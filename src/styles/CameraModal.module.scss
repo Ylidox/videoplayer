@@ -1,0 +1,39 @@
+.container{
+  position: relative;
+  background: white;
+  width: 100% ;
+  height: calc(100% - 50px - 16px);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.close{
+  position: absolute;
+  right: 2px;  
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  color: rgb(83, 82, 82);
+}
+
+.content{
+  ul{
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 20px;
+    li{
+      display: flex;
+      align-items: center;
+      transition: all 0.3s;
+      cursor: pointer;
+      &:hover{
+        background: rgb(199, 198, 198);
+      }
+    }
+  }
+  .icon{
+    font-size: 20px;
+    margin: 10px 5px;
+  }
+}

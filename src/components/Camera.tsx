@@ -3,6 +3,8 @@ import styles from '../styles/Camera.module.scss';
 import { HiDotsVertical } from "react-icons/hi";
 import { BsCameraVideoFill, BsCameraVideo } from "react-icons/bs";
 import { useEditCamera } from "../hooks/useEditCamera";
+import { useCameraModal } from "../hooks/useCameraModal";
+
 
 
 export interface ICamera{
@@ -22,7 +24,11 @@ export interface ICameraProp{
 
 export const Camera: FC<ICameraProp> = ({camera,}) => {
   let [run, setRun] = useState(false);
-  let {setEditCamera, setShowModal} = useEditCamera();
+  // let [showModal, setShowModal] = useState(false);
+
+  // let {setEditCamera, setShowModal} = useEditCamera();
+
+  let {setShowModal, setCameraModal} = useCameraModal();
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -33,11 +39,14 @@ export const Camera: FC<ICameraProp> = ({camera,}) => {
             {run ? <BsCameraVideoFill/> : <BsCameraVideo/>} 
           </div>
           <p>{camera.name}</p>
+          
         </div>
         <div
           onClick={() => {
-            setEditCamera(camera);
+            // setEditCamera(camera);
+            // setShowModal(!showModal);
             setShowModal(true);
+            setCameraModal(camera);
           }}
         >
           <HiDotsVertical/>
