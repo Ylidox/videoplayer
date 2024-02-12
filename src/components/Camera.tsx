@@ -21,11 +21,19 @@ export interface ICameraProp{
 
 export const Camera: FC<ICameraProp> = memo(({camera,}) => {
   let [run, setRun] = useState(false);
-
-
   let {setShowModal, setCameraModal} = useCameraModal();
+
+  let drag = (event: React.DragEvent<HTMLDivElement>) => {
+    event.dataTransfer.setData('camera', JSON.stringify(camera));
+  }
+
   return (
-    <div className={styles.container}>
+    <div 
+      className={styles.container} 
+      draggable 
+      onDragStart={drag}
+      onDragOver={(e) => e.preventDefault()}
+    >
       <div className={styles.content}>
         <div className={styles.camera_head}
           onClick={() => setRun(run => !run)}

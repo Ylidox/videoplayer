@@ -3,7 +3,7 @@
   left: 0;
   height: 100vh;
   background: var(--sidebar-background);
-  z-index: 0;
+  z-index: 10;
 
   .sidebar{
     overflow-y: scroll;

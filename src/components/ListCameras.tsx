@@ -1,4 +1,4 @@
-import { FC, memo} from "react"
+import { FC} from "react"
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
 import { Camera } from './Camera';
@@ -6,9 +6,6 @@ import styles from '../styles/ListCameras.module.scss'
 import { useListCameras } from "../hooks/useListCameras";
 import { useCameraModal } from "../hooks/useCameraModal";
 import { CameraModal } from "./CameraModal";
-
-
-
 
 export interface IList{
   id: number,
@@ -20,7 +17,7 @@ export const ListCameras: FC<IList> = (list) => {
   let {cameras} = useListCameras();
   let list_cameras = cameras.filter((cam) => cam.list_id == list.id);
 
-  let {showModal, setShowModal, cameraModal} = useCameraModal();
+  let {showModal, cameraModal} = useCameraModal();
 
   return (
     <Accordion disableGutters>
