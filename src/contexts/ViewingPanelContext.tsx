@@ -1,4 +1,4 @@
-import { FC, ReactNode, createContext, useEffect, useState } from "react";
+import { FC, ReactNode, createContext,  useState } from "react";
 import { ICamera } from "../components/Camera";
 // import cameras from '../json/cameras.json'
 
@@ -27,18 +27,6 @@ export const ViewingPanelContext = createContext<IViewingPanelContext>({
 
 export const ViewingPanelProvider: FC<IViewingPanelProvider> = ({children}) => {
   let [windows, setWindows] = useState<IWindow[]>([]);
-  
-  // useEffect(() => {
-  //   let cams = cameras.slice(0, 4);
-  //   windows = cams.map(item => {
-  //     return {
-  //       camera: item,
-  //       run: false,
-  //     }
-  //   });
-  //   setWindows([...windows]);
-  // }, []);
-
 
   return (
     <ViewingPanelContext.Provider
