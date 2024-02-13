@@ -18,9 +18,10 @@ export interface ICamera{
 
 export interface ICameraProp{
   camera: ICamera,
+  // get_run?: display,
 }
 
-type display = 'disabled' | 'stop' | 'run';
+export type display = 'disabled' | 'stop' | 'run';
 
 export const Camera: FC<ICameraProp> = memo(({camera,}) => {
   let [run, setRun] = useState<display>('disabled');
@@ -31,7 +32,7 @@ export const Camera: FC<ICameraProp> = memo(({camera,}) => {
     event.dataTransfer.setData('camera', JSON.stringify(camera));
   };
 
-  useEffect(() => {
+  let updateRunByWindows = () => {
     setRun('disabled');
     windows.some(item => {
       if(item.camera.id == camera.id){
@@ -41,6 +42,14 @@ export const Camera: FC<ICameraProp> = memo(({camera,}) => {
       
       return false;   
     })
+  }
+
+  useEffect(() => {
+    updateRunByWindows();
+  }, []);
+
+  useEffect(() => {
+    updateRunByWindows();
   }, [windows]);
 
   let getClassName = () => {

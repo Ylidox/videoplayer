@@ -9,9 +9,7 @@ export const ViewingPanel = () => {
   let {windows, setWindows} = useViewingPanel();
   let drop = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
-    console.log('drop')
     let camera: ICamera = JSON.parse(event.dataTransfer.getData('camera'));
-    console.log(camera)
     if(windows.every(item => item.camera.id !== camera.id)){
       windows.push({
         camera,

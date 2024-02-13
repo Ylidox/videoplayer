@@ -45,7 +45,7 @@ export const ListCameras: FC<IList> = (list) => {
           <div style={{display: showModal && cameraModal?.list_id == list.id ? 'none' : 'block'}}>
             {list_cameras.map((camera, index) => {
               return (
-                <Camera key={index} camera={{...camera}}/>
+                <Camera key={camera.id} camera={{...camera}}/>
               );
             })}
           </div>
