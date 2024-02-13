@@ -1,5 +1,5 @@
 .container{
-  height: 224px;
+  height: 274px;
   position: absolute;
 
   .content{
@@ -16,7 +16,7 @@
       flex-direction: row;
 
       p{
-        width: calc(355px - 2em);
+        width: calc(440px - 2em);
         white-space: nowrap; /* Запрет переноса текста */
         overflow: hidden; /* Скрытие текста, выходящего за границы элемента */
         text-overflow: ellipsis;
