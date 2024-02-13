@@ -43,7 +43,7 @@ export const ListCameras: FC<IList> = (list) => {
             <CameraModal camera={cameraModal} list={list}/>
           }
           <div style={{display: showModal && cameraModal?.list_id == list.id ? 'none' : 'block'}}>
-            {list_cameras.map((camera, index) => {
+            {list_cameras.map((camera) => {
               return (
                 <Camera key={camera.id} camera={{...camera}}/>
               );

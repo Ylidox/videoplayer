@@ -3,6 +3,7 @@ import styles from '../styles/EditModal.module.scss';
 import { ICamera } from './Camera';
 import { IoCloseOutline } from "react-icons/io5";
 import { useListCameras } from '../hooks/useListCameras';
+import { useRef } from 'react';
 
 export const EditModal = () => {
   let {showEdit, setShowEdit, editCamera, setEditCamera} = useEditCamera();
@@ -14,6 +15,33 @@ export const EditModal = () => {
         ...editCamera,
         [prop]: event.currentTarget.value,
       })
+    }
+  }
+
+  let inputImage = useRef<HTMLInputElement>(null);
+
+  let selectFile = () => {
+    inputImage.current?.click();
+  }
+
+  let dropImage = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    drawImage(e.dataTransfer.files[0])
+  }
+
+  let downloadImage = () => {
+    let file = inputImage.current?.files && inputImage.current?.files[0];
+    file && drawImage(file);
+  }
+
+  let drawImage = (file: File) => {
+    let reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => {
+      if(editCamera) {
+        editCamera.preview = '' + reader.result;
+        setEditCamera({...editCamera});
+      }
     }
   }
 
@@ -69,8 +97,16 @@ export const EditModal = () => {
               </li>
               <li className={styles.li}>
                 <div className={`${styles.title} ${styles.__top}`}>Превью:</div>
-                <div className={styles.li_content}>                  
+                <div className={`${styles.li_content} ${styles.select_photo_container}`}
+                  onDragStart={e => e.preventDefault()}
+                  onDragOver={e => e.preventDefault()}
+                  onDrop={dropImage}
+                >                  
                   <img src={editCamera?.preview} alt="Превью"/>
+                  <input onChange={downloadImage} className={styles.hidden} ref={inputImage} placeholder="Image" type="file" />
+                  <button className={styles.select_photo} onClick={selectFile}>
+                    Выберите фото
+                  </button>
                 </div>                 
               </li>
             </ul>
