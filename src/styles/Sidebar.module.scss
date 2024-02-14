@@ -10,6 +10,9 @@
     overflow-x: hidden;
     height: 100vh;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .content{
@@ -41,5 +44,27 @@
 
   .close{
     width: 0;
+  }
+}
+
+.add_list{
+  button{
+    width: calc(100% - 30px);
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    // border: 1px solid gray;
+    border: none;
+    background: white;
+    border-radius: 5px;
+
+    &:hover{
+      background: lightgray;
+    }
+    &:active{
+      background: gray;
+    }
   }
 }

@@ -1,0 +1,56 @@
+.container{
+  position: relative;
+  background: white;
+  width: 100% ;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.head{
+  font-size: 18px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  p{
+    margin: 5px 0;
+    width: calc(100% - 5px - 1em);
+    white-space: nowrap; /* Запрет переноса текста */
+    overflow: hidden; /* Скрытие текста, выходящего за границы элемента */
+    text-overflow: ellipsis;
+  }
+}
+
+.close{
+  right: 2px;  
+  width: 1em;
+  height: 1em;
+  color: rgb(83, 82, 82);
+}
+
+
+.content{
+  p{
+    font-size: 30px;
+    padding-left: 1em;
+  }
+
+  ul{
+    padding: 0;
+    list-style-type: none;
+    li{
+      padding: 8px;
+      margin: 8px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+
+      &:hover{
+        background: lightgray;
+      }
+      // width: 30%;
+    }
+  }
+}
