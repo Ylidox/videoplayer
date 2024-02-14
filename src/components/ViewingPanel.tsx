@@ -27,10 +27,10 @@ export const ViewingPanel = () => {
   let grid = () => {
     let w = 400, h = 250;
     let count_j = window.innerWidth / w | 0;
-    let count_i = window.innerHeight / h | 0;
+    let count_i = Math.ceil(windows.length / count_j);
     let offset_x = (window.innerWidth - w * count_j) / 2;
-    let offset_y = windows.length < count_i * count_j ? 
-      (window.innerHeight - h * count_i) / 2 : 0;
+    let offset_y = count_i * h < window.innerHeight ? (window.innerHeight - h * count_i) / 2 : 0;
+      // (window.innerHeight - h * count_i) / 2 : 0;
 
     // setWindows([...windows.map(item => {item.coord.x++; return item})]);
 
