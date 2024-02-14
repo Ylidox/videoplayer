@@ -78,5 +78,1405 @@
     "list_permissions": ["1080p", "720p", "480p"],
     "src": "/videos/vid4.mp4",
     "preview": "default.png"
-  }
+  },
+{
+  "id": 15,
+  "list_id": 2,
+  "name": "Камера 15",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 16,
+  "list_id": 2,
+  "name": "Камера 16",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 17,
+  "list_id": 2,
+  "name": "Камера 17",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 18,
+  "list_id": 1,
+  "name": "Камера 18",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 19,
+  "list_id": 2,
+  "name": "Камера 19",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 20,
+  "list_id": 2,
+  "name": "Камера 20",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 21,
+  "list_id": 2,
+  "name": "Камера 21",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 22,
+  "list_id": 1,
+  "name": "Камера 22",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 23,
+  "list_id": 1,
+  "name": "Камера 23",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 24,
+  "list_id": 3,
+  "name": "Камера 24",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 25,
+  "list_id": 1,
+  "name": "Камера 25",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 26,
+  "list_id": 3,
+  "name": "Камера 26",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 27,
+  "list_id": 3,
+  "name": "Камера 27",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 28,
+  "list_id": 1,
+  "name": "Камера 28",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 29,
+  "list_id": 3,
+  "name": "Камера 29",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 30,
+  "list_id": 3,
+  "name": "Камера 30",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 31,
+  "list_id": 3,
+  "name": "Камера 31",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 32,
+  "list_id": 2,
+  "name": "Камера 32",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 33,
+  "list_id": 1,
+  "name": "Камера 33",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 34,
+  "list_id": 1,
+  "name": "Камера 34",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 35,
+  "list_id": 3,
+  "name": "Камера 35",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 36,
+  "list_id": 2,
+  "name": "Камера 36",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 37,
+  "list_id": 2,
+  "name": "Камера 37",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 38,
+  "list_id": 2,
+  "name": "Камера 38",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 39,
+  "list_id": 1,
+  "name": "Камера 39",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 40,
+  "list_id": 1,
+  "name": "Камера 40",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 41,
+  "list_id": 1,
+  "name": "Камера 41",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 42,
+  "list_id": 1,
+  "name": "Камера 42",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 43,
+  "list_id": 2,
+  "name": "Камера 43",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 44,
+  "list_id": 2,
+  "name": "Камера 44",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 45,
+  "list_id": 2,
+  "name": "Камера 45",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+"list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 46,
+  "list_id": 1,
+  "name": "Камера 46",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 47,
+  "list_id": 1,
+  "name": "Камера 47",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 48,
+  "list_id": 2,
+  "name": "Камера 48",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 49,
+  "list_id": 1,
+  "name": "Камера 49",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 50,
+  "list_id": 3,
+  "name": "Камера 50",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 51,
+  "list_id": 2,
+  "name": "Камера 51",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 52,
+  "list_id": 2,
+  "name": "Камера 52",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 53,
+  "list_id": 1,
+  "name": "Камера 53",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 54,
+  "list_id": 3,
+  "name": "Камера 54",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 55,
+  "list_id": 1,
+  "name": "Камера 55",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 56,
+  "list_id": 2,
+  "name": "Камера 56",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 57,
+  "list_id": 2,
+  "name": "Камера 57",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 58,
+  "list_id": 3,
+  "name": "Камера 58",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 59,
+  "list_id": 3,
+  "name": "Камера 59",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 60,
+  "list_id": 2,
+  "name": "Камера 60",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 61,
+  "list_id": 1,
+  "name": "Камера 61",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 62,
+  "list_id": 3,
+  "name": "Камера 62",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 63,
+  "list_id": 2,
+  "name": "Камера 63",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 64,
+  "list_id": 1,
+  "name": "Камера 64",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 65,
+  "list_id": 1,
+  "name": "Камера 65",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 66,
+  "list_id": 3,
+  "name": "Камера 66",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 67,
+  "list_id": 2,
+  "name": "Камера 67",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 68,
+  "list_id": 3,
+  "name": "Камера 68",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 69,
+  "list_id": 2,
+  "name": "Камера 69",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 70,
+  "list_id": 3,
+  "name": "Камера 70",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 71,
+  "list_id": 2,
+  "name": "Камера 71",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 72,
+  "list_id": 2,
+  "name": "Камера 72",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 73,
+  "list_id": 3,
+  "name": "Камера 73",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 74,
+  "list_id": 2,
+  "name": "Камера 74",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 75,
+  "list_id": 3,
+  "name": "Камера 75",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 76,
+  "list_id": 3,
+  "name": "Камера 76",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 77,
+  "list_id": 3,
+  "name": "Камера 77",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 78,
+  "list_id": 2,
+  "name": "Камера 78",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 79,
+  "list_id": 3,
+  "name": "Камера 79",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 80,
+  "list_id": 2,
+  "name": "Камера 80",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 81,
+  "list_id": 2,
+  "name": "Камера 81",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 82,
+  "list_id": 1,
+  "name": "Камера 82",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 83,
+  "list_id": 2,
+  "name": "Камера 83",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 84,
+  "list_id": 3,
+  "name": "Камера 84",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 85,
+  "list_id": 3,
+  "name": "Камера 85",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 86,
+  "list_id": 1,
+  "name": "Камера 86",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 87,
+  "list_id": 3,
+  "name": "Камера 87",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 88,
+  "list_id": 3,
+  "name": "Камера 88",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 89,
+  "list_id": 1,
+  "name": "Камера 89",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 90,
+  "list_id": 2,
+  "name": "Камера 90",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 91,
+  "list_id": 1,
+  "name": "Камера 91",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 92,
+  "list_id": 2,
+  "name": "Камера 92",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 93,
+  "list_id": 1,
+  "name": "Камера 93",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 94,
+  "list_id": 1,
+  "name": "Камера 94",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 95,
+  "list_id": 3,
+  "name": "Камера 95",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 96,
+  "list_id": 1,
+  "name": "Камера 96",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid4.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 97,
+  "list_id": 2,
+  "name": "Камера 97",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 98,
+  "list_id": 2,
+  "name": "Камера 98",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 99,
+  "list_id": 3,
+  "name": "Камера 99",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 100,
+  "list_id": 1,
+  "name": "Камера 100",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 101,
+  "list_id": 1,
+  "name": "Камера 101",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 102,
+  "list_id": 3,
+  "name": "Камера 102",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid3.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 103,
+  "list_id": 1,
+  "name": "Камера 103",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview":"default.png"
+},
+{
+  "id": 104,
+  "list_id": 2,
+  "name": "Камера 104",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid5.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 105,
+  "list_id": 1,
+  "name": "Камера 105",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 106,
+  "list_id": 3,
+  "name": "Камера 106",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 107,
+  "list_id": 1,
+  "name": "Камера 107",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid6.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 108,
+  "list_id": 1,
+  "name": "Камера 108",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid8.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 109,
+  "list_id": 3,
+  "name": "Камера 109",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 110,
+  "list_id": 2,
+  "name": "Камера 110",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 111,
+  "list_id": 2,
+  "name": "Камера 111",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid1.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 112,
+  "list_id": 1,
+  "name": "Камера 112",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 113,
+  "list_id": 2,
+  "name": "Камера 113",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid2.mp4",
+  "preview": "default.png"
+},
+{
+  "id": 114,
+  "list_id": 1,
+  "name": "Камера 114",
+  "ip": "17.131. 82.14",
+  "port": "3000",
+  "list_permissions": [
+    "1080p",
+    "720p",
+    "480p"
+  ],
+  "src": "/videos/vid7.mp4",
+  "preview": "default.png"
+}
 ]
