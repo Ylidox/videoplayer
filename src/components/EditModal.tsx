@@ -4,9 +4,11 @@ import { ICamera } from './Camera';
 import { IoCloseOutline } from "react-icons/io5";
 import { useListCameras } from '../hooks/useListCameras';
 import { useRef } from 'react';
+import { useViewingPanel } from '../hooks/useViewingPanel';
 
 export const EditModal = () => {
   let {showEdit, setShowEdit, editCamera, setEditCamera} = useEditCamera();
+  let {windows, setWindows} = useViewingPanel();
   let {cameras, setCameras} = useListCameras();
 
   let editHandler = (event: React.ChangeEvent<HTMLInputElement>, prop: keyof ICamera) => {
@@ -43,6 +45,23 @@ export const EditModal = () => {
         setEditCamera({...editCamera});
       }
     }
+  }
+
+  let saveEdit = () => {
+    setWindows([...windows.map(item => {
+      if(item.camera.id == editCamera?.id){
+        item.camera = editCamera;
+        return item;
+      }else return item;
+    })]);
+    setCameras(
+      [...cameras.map((item) => {
+        if(item.id == editCamera?.id){
+          return editCamera;
+        }else return item;
+      })]
+    );
+    setShowEdit(false);
   }
 
   return (
@@ -113,16 +132,7 @@ export const EditModal = () => {
 
             <div className={styles.button_container}>
               <button
-                onClick={() => {
-                  setCameras(
-                    [...cameras.map((item) => {
-                      if(item.id == editCamera?.id){
-                        return editCamera;
-                      }else return item;
-                    })]
-                  );
-                  setShowEdit(false);
-                }}
+                onClick={saveEdit}
               >
                 Изменить
               </button>
